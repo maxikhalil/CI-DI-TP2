@@ -1,0 +1,180 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    color: white;
+}
+
+.navbar {
+    background-color: white;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 2s;
+}
+
+ul li :hover {
+    background-color: #F18DF2;
+
+    transition: 1s;
+}
+
+#navtext:hover {
+    color: white;
+    transition: 0.5s;
+
+}
+
+#nosotros{
+    color:rgb(69, 35, 107);
+}
+
+#nosotros img{
+    width: 140%;
+    filter: drop-shadow(10px 10px 4px #4444dd);
+    margin-right: 10px; 
+}
+
+
+#info,
+#pastillas,
+#referencia,
+#pedidos,
+footer {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#app {
+    background-color: #fff7fe !important;
+}
+
+#pedidos {
+    background-color: rgb(144, 119, 255);
+    margin-top: 50px;
+    
+}
+
+
+#info h2,
+#pastillas h2 {
+    font-weight: 600 !important;
+    color:rgb(69, 35, 107);
+}
+
+
+#contacto {
+    background-color: #fff7fe !important;
+    color:rgb(69, 35, 107); 
+}
+
+#contacto .btn {
+    background-color: #ff97ff !important;
+    border: none;
+
+}
+
+footer {
+    background-color: rgb(144, 119, 255);
+}
+
+#app {
+    padding: 0 0.75rem;
+}
+
+#pastillas .card {
+    background-color: #9e97ff !important;
+
+}
+
+#eliminar_todo {
+    background-color: #9e97ff !important;
+    border: none;
+}
+
+#nueva {
+    background-color: #ff97ff !important;
+    border: none;
+}
+
+#contenido .card {
+    min-width: 200px;
+}
+
+
+.vinilo {
+    background-color: rgb(255, 213, 255);
+}
+
+.vinilo .card-header {
+    background-color: rgb(221, 135, 192);
+
+}
+
+.cd {
+
+    background-color: rgb(235, 200, 255);
+}
+
+.cd .card-header {
+    background-color: rgb(191, 124, 247);
+}
+
+.merch {
+    background-color: rgb(206, 192, 255);
+}
+
+.merch .card-header {
+    background-color: rgb(144, 119, 255);
+}
+
+.btn-canc {
+    background-color: #c6adff !important;
+}
+
+.btn-canc:hover {
+    background-color: #9e97ff !important;
+}
+
+.btn-ingr {
+    background-color: #f8abff !important;
+}
+
+.btn-ingr:hover {
+    background-color: #f88dfa !important;
+}
+
+.btn-modif{
+    background-color: #f8abff !important;
+
+}
+.btn-modif:hover{
+    background-color: #f88dfa !important;
+
+}
+
+.btn-canmodif {
+    background-color: #c6adff !important;
+}
+
+.btn-canmodif:hover {
+    background-color: #9e97ff !important;
+}
+
+.oculto {
+    display: none !important;
+}
+
+ [data-accion] {
+    cursor: pointer;
+    opacity: .8;
+}
+
+[data-accion]:hover {
+    opacity: 1;
+}
